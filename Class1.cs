@@ -9,13 +9,7 @@ from telethon.errors import MultiError
 
 from telethon.tl.types import ContactStatus, UserStatusOnline, UserStatusOffline, UserStatusRecently, UserStatusLastWeek, UserStatusLastMonth, UserStatusEmpty
 
-from telethon.tl.functions.channels import InviteToChannelRequest
-from telethon.tl.functions.messages import ImportChatInviteRequest
-from telethon.tl.functions.channels import JoinChannelRequest
-from telethon import types
-from telethon.tl.types import ChannelParticipantCreator, ChannelParticipantAdmin
-from telethon.tl.functions.channels import GetParticipantsRequest
-from telethon.tl.types import ChannelParticipantsSearch
+
 from telethon import events
 import sys
 import csv

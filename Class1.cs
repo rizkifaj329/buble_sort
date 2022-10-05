@@ -33,19 +33,7 @@ if not client.is_user_authorized():
     client.sign_in(phone, input('Enter the code recieved to your Telegram messenger: '))
 
 
-chats = []
-last_date = None
-chunk_size = 200
-groups =[]
 
-result = client(GetDialogsRequest(
-             offset_date = last_date,
-             offset_id = 0,
-             offset_peer = InputPeerEmpty(),
-             limit = chunk_size,
-             hash = 0
-         ))
-chats.extend(result.chats)
 
 for chat in chats:
     try:

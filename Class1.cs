@@ -11,13 +11,7 @@ from telethon.tl.types import ContactStatus, UserStatusOnline, UserStatusOffline
 
 
 from telethon import events
-import sys
-import csv
-import os
-import subprocess
-import configparser
-import traceback
-import time
+
 
 
 

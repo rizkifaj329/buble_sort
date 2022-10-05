@@ -86,11 +86,6 @@ with open("data.csv", "w", encoding = 'UTF-8') as f:
                 writer.writerow([username, user.id, user.access_hash, name, target_group.title, target_group.id, user.status.was_online])
                 time.sleep(0.1)
 
-    except MultiError as e:
-        # The first and third requests worked.
-        first = e.results[0]
-        second = e.exceptions[1]
-        third = e.results[2]
-        # The second request failed.
+
 
 print('Members scraped successfully.')

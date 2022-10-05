@@ -23,9 +23,7 @@ import time
 
 #Subscribe to Solve4You Channel for more free script
 
-api_id = 11489981
-api_hash = '651ad564b2323926e9cd72d51e040e30'
-phone = '62859106555568'
+
 
 client = TelegramClient(str(phone), api_id, api_hash)
 
